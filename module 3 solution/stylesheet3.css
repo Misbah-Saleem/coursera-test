@@ -10,9 +10,11 @@ h1 {
     font-size: 250%;
     margin-top: 10px;
 }
-h2 {
-    color: black;
+.navbar-default .navbar-brand {
+    font-size: 250%;
+    color: rgb(0, 0, 0);
     margin-top: 10px;
+
 }
 h3 {
     color: black;
@@ -38,6 +40,21 @@ a#top {
 .navbar {
  background-color: rgb(131, 143, 138);
  
+}
+.navbar-default .navbar-toggle {
+     border-color: rgba(53, 46, 46, 0.829); 
+}
+
+.navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 5px;
+}
+.navbar-toggle .icon-bar {
+    width: 32px;
+    height: 4px;
+    
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: rgba(53, 46, 46, 0.829); 
 }
 
 #header-nav {
